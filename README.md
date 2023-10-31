@@ -1,4 +1,4 @@
-# 🌈 `escm code.escm`
+# 🌈 `escm <your-code>.escm`
 
 Scheme, now written with emojis.
 
