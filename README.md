@@ -1,6 +1,6 @@
 # 🌈 `escm <your-code>.escm`
 
-Scheme, now written with emojis. Install it on your computer by downloading `escm.py` and editing your shell's configuration path to include:
+[Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)), now written with emojis. Install it on your computer by downloading `escm.py` and editing your shell's configuration path to include:
 
 ```bash
 escm() {
@@ -15,6 +15,14 @@ escm() {
     fi
   fi
 }
+```
+
+Here's an example snippet that prints the 21st number in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence):
+
+```scheme
+(🟰 (fibonacci n) (🤷 (< n 2) n (+ (fibonacci (- n 1)) (fibonacci (- n 2)))))
+
+(🖨️ (fibonacci 21))
 ```
 
 Usage is fairly simple, write Scheme as you usually would but use emojis for actions / command words instead of words.
@@ -67,4 +75,4 @@ Here's the list of currently available aliases:
 | 🌊-🌊 | cons-stream | 🔒!  | set!     |
 
 
-###### 🐻 Shoutout to any future 61A-ers learning Scheme! That was the inspiration for this project... wahoo :)
+###### 🐻 Shoutout to any future [61A-ers](https://cs61a.org/) learning Scheme! That was the inspiration for this project... wahoo :)
