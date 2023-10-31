@@ -68,5 +68,3 @@ Here's the list of currently available aliases:
 
 
 ###### 🐻 Shoutout to any future 61A-ers learning Scheme! That was the inspiration for this project... wahoo :)
-
-Docs coming soon.
