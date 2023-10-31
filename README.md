@@ -1,4 +1,4 @@
-# 🌈 escm
+# 🌈 `escm code.escm`
 
 Scheme, now written with emojis.
 
